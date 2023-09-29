@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.0;
+    background-color: lightblue;
+}
+.qr {
+    border: 1px solid black;
+    height: 550px;
+    width: 450px;
+    margin-left: 34%;
+    margin-top: 8%;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.image{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    height: 350px;
+    width: 420px;
+    border: none;
+    border-radius: 10px;
+}
+.content {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    padding-right: 20px;
+    font-size: 15px;
+}
